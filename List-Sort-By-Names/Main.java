@@ -2,6 +2,8 @@
 
 // Main.java
 import java.util.*;
+import NameComparator;
+import User; 
 
 public class Main {
     public static void main (String[] args){

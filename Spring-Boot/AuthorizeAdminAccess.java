@@ -2,6 +2,6 @@
 
 @Override 
 protected void configure(HttpSecurity http) throws Exception{
-    http.authorizeRequests()
+    http.authorizeRequests();
         antMatches("/dashboard").hasRole("ADMIN");
 }
